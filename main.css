@@ -1,0 +1,22 @@
+p, input {
+    padding: 15px;
+    margin: 5px;
+    border-radius: 10px;
+    border: 1px solid black;
+    width: -webkit-fill-available;
+    font-size: xx-large;
+}
+
+input {
+    background-color: rgba(0,0,0,.1);
+    border: 1px solid black;
+}
+
+input::placeholder {
+    font-weight: 100;
+}
+
+* {
+    overflow-x: hidden;
+    outline: none;
+}
